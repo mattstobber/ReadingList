@@ -1,12 +1,12 @@
 # Matthew Stobber Technical Interview
 
-The code for this submission is in `Components/ReadingList`. The core work is in `ReadingList.tsx`, with other files supporting it.
+The code for this submission is in `Components/ReadingList`. The core work is in `ReadingList.tsx`, with other files supporting it. The component folder is less than 100 lines.
 
 Files included:
 - `ReadingList.tsx`: Renders a list of `Book` objects with Tailwind styling.
 - `ReadingList.test.tsx`: Tests for the `ReadingList` component.
 - `useBooks.tsx`: Light data fetch hook
-- `BooksRepository.tsx`: VERY small repo. layer to simulate fetching books.
+- `BooksRepository.tsx`: VERY small repoistory layer to simulate fetching books.
 - `mockData.ts`: Mock book data used for rendering and testing.
 - `index.ts`: Barrel file for the component’s public exports.
 - `types.ts`: Domain types used by the component.
